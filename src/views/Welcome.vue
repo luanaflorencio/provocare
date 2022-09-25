@@ -1,5 +1,9 @@
 <template>
-    <a href="<Register />" >Clique aqui para Cadastrar-se</a>
+<div class="welcome">
+<nav>
+    <router-link to="/register">Cadastre-se</router-link>
+  </nav>
+</div>
     
 </template>
 

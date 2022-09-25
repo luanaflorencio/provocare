@@ -1,9 +1,11 @@
 <template>
+<div class="register"></div>
     <h1>Tela de cadastro</h1>
 </template>
 
 <script>
-    export default{
+    export default {
         name: 'Register'
     }
 </script>
+

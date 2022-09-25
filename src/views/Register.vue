@@ -1,6 +1,6 @@
 <template>
 <div class="register"></div>
-    <h1>Tela de cadastro</h1>
+    <h1>Tela Cadastro</h1>
 </template>
 
 <script>

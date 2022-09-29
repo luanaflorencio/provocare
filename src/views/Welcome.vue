@@ -1,11 +1,14 @@
 <template>
 <div class="welcome">
-    <h1>Tela Welcome</h1>
+    <section class="main">
+        <div class="card-blue">
+            <h1>PROVOCARE</h1>
+        </div>
+    </section>
 <nav>
     <router-link to="/register">Cadastre-se</router-link>
   </nav>
 </div>
-    
 </template>
 
 <script>

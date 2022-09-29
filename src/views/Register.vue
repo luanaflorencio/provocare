@@ -21,8 +21,11 @@
             </div>
 
             <form action="#">
+                <fa icon="user"/>
                 <input type="text" placeholder="Nome" class="ipt"><br>
+                <fa icon="envelope"/>
                 <input type="text" placeholder="E-mail" class="ipt"><br>
+                <fa icon="lock"/>
                 <input type="text" placeholder="Senha" class="ipt"><br>
             </form>
         </div>
@@ -57,13 +60,14 @@
     
     .card-blue {
         background: #3C60A6;
-        max-width: 17.5rem;
+        max-width: 20rem;
         display: flex;
         align-items: center;
         flex-direction: column;
         text-align: center;
-        padding: 1.25rem;
-        height: 100vh;
+        height: 120vh;
+        padding: 25px;
+        
     }
     
     .title-login {

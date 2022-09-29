@@ -16,13 +16,14 @@
         </div>
         <div class="form-card">
             <div class="title-form">
-                <h2>Crie sua conta</h2>
+                <h2 class="title">Crie sua conta</h2>
                 <span>Preencha seus dados</span>
             </div>
 
             <form action="#">
-                <label for="name"></label>
-                <input type="text">
+                <input type="text" placeholder="Nome" class="ipt"><br>
+                <input type="text" placeholder="E-mail" class="ipt"><br>
+                <input type="text" placeholder="Senha" class="ipt"><br>
             </form>
         </div>
     </section>
@@ -111,5 +112,24 @@
         justify-content: center;
         align-items: center;
         width: 100vw;
+        margin-top: 5%;
+    }
+
+    .ipt {
+        margin-top: 5%;
+        width: 40%;
+        height: 47px;
+        border-radius: 10px;
+        background-color: #E3E3E3;
+        border: #E3E3E3;
+    }
+
+    .title {
+        margin-bottom: 3%;
+    }
+
+    .title-form {
+        color: #3C60A6;
+        text-shadow: 3px 8px 5px #E3E3E3;
     }
     </style>

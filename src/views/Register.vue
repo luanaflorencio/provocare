@@ -21,11 +21,11 @@
             </div>
 
             <form action="#">
-                <fa icon="user"/>
+                
                 <input type="text" placeholder="Nome" class="ipt"><br>
-                <fa icon="envelope"/>
+               
                 <input type="text" placeholder="E-mail" class="ipt"><br>
-                <fa icon="lock"/>
+              
                 <input type="text" placeholder="Senha" class="ipt"><br>
             </form>
         </div>

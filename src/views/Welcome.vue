@@ -2,6 +2,7 @@
 <div class="welcome">
     <section class="main">
         <div class="card-blue">
+            <div class="conic-gradient"></div>
             <div class="text-action">
                 <div class="title">
                     <h1>
@@ -10,14 +11,13 @@
                         <font color="#44D794">&gt;</font>
                     </h1>
                 </div>
-                <div class="container">
-                    <div class="about">
-                        <a href="#" >Quem Somos</a>
-                    </div>
-                    <div class="contact">
-                        <a href="#" >Contato</a>
-                    </div>
+                <div class="about">
+                    <a href="#" >Quem Somos</a>
                 </div>
+                <div class="contact">
+                  <a href="#" >Contato</a>
+                </div>
+                <img src="..\assets\Puzzle.png" alt="Puzzle" class="puzzle">
             </div>
         </div>
         <div class="logon-card">
@@ -25,9 +25,9 @@
                 <h2>
                     Junte-se a comunidade desenvolvedora mais estimulante
                      e alcance seus objetivos se divertindo e contribuindo no <br>
-                    <font color="#44D794">&lt;</font>
+                    <font color="#fff">&lt;</font>
                     PROVOCARE
-                    <font color="#44D794">&gt;</font>
+                    <font color="#fff">&gt;</font>
                 </h2>
                 <div class="container-2">
                     <nav class="login">
@@ -71,48 +71,47 @@
     
     .main{
         display: flex;
+        background: linear-gradient(180deg, rgba(68, 215, 148, 0.99) 0%, rgba(68, 215, 148, 0.804375)
+            38.02%, rgba(0, 59, 210, 0.5049) 100%);
     }
     
     .card-blue {
         background: #3C60A6;
         max-width: 17.5rem;
-        display: flex;
-        align-items: flex-start;
-        flex-direction: row;
-        text-align: center;
         padding: 10rem;
         height: 100vh;
+        border: 1px solid #000000;
+        box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+        border-radius: 16px;
+    }
+
+    .conic-gradient {
+        position: absolute;
+        width: 566px;
+        height: 645px;
+        left: -57px;
+        top: 476px;
+
+        background: conic-gradient(from 236.56deg at 54.72% 27.17%, #00D1FF -106.88deg, #2400FF 157.5deg, #00D1FF 253.13deg, #2400FF 517.5deg);
+        filter: blur(173.754px);
     }
 
     .title {
         width: 589px;
         height: 86px;
         margin-bottom: 2.1875rem;
-        display: flex;
-        flex-direction: row;
-        align-items: flex-start;
     }
 
     .card-blue h1 {
         font-size: 3rem;
-        font-weight: 900;
-        line-height: 4.375rem;
+        font-weight: 700;
+        line-height: 3rem;
         letter-spacing: 0.07em;
         max-width: 10rem;
         color: #fff;
         text-shadow: 0rem .25rem .25rem rgba(0, 0, 0, 0.25);;
-        margin-bottom: 2.125rem;
         display: flex;
-        font-weight: 700;
-    }
-
-    .container {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        width: 380px;
-        margin-left: auto;
-        margin-right: auto;
+        
     }
 
     .about, .contact {
@@ -136,28 +135,26 @@
         padding: 1rem 4rem;
         font-weight: 900;
     }
+
+    .puzzle {
+        display: flex;
+        mix-blend-mode: hard-light;
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    }
     
     .logon-card {
-        background: linear-gradient(180deg, rgba(68, 215, 148, 0.99) 0%, rgba(68, 215, 148, 0.804375)
-            38.02%, rgba(0, 59, 210, 0.5049) 100%);
-        max-width: 17.5rem;
-        display: flex;
-        align-items: flex-start;
         flex-direction: row;
         text-align: center;
         padding: 10rem;
         height: 100vh;
     }
 
-    .logon-card h2 {
-        background: linear-gradient(180deg, rgba(68, 215, 148, 0.99) 0%,
-            rgba(68, 215, 148, 0.804375) 38.02%, rgba(0, 59, 210, 0.5049) 100%);
-        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-        border-radius: 16px;
+    .title-logon h2 {
+        padding: 1rem;
+        text-shadow: 0rem .25rem .25rem rgba(0, 0, 0, 0.25);;
     }
 
     .container-2 {
-        display: flex;
         flex-direction: row;
         flex-wrap: wrap;
         width: 380px;
@@ -191,5 +188,4 @@
     .router-register {
         color: #fff;
     }
-    
 </style>

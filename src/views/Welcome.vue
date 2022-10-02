@@ -6,10 +6,12 @@
             <div class="text-action">
                 <div class="title">
                     <h1>
+                        
                         <font color="#44D794">&lt;</font>
                         PROVOCARE
-                        <font color="#44D794">&gt;</font>
+                        <font color="#44D794">&gt;</font> 
                     </h1>
+                    
                 </div>
                 <div class="about">
                     <a href="#" >Quem Somos</a>
@@ -73,6 +75,7 @@
         display: flex;
         background: linear-gradient(180deg, rgba(68, 215, 148, 0.99) 0%, rgba(68, 215, 148, 0.804375)
             38.02%, rgba(0, 59, 210, 0.5049) 100%);
+            border-radius: 16px;
     }
     
     .card-blue {
@@ -87,16 +90,17 @@
 
     .conic-gradient {
         position: absolute;
-        width: 566px;
-        height: 645px;
+        width: 600px;
+        height: 370px;
         left: -57px;
-        top: 476px;
+        top: 400px;
 
         background: conic-gradient(from 236.56deg at 54.72% 27.17%, #00D1FF -106.88deg, #2400FF 157.5deg, #00D1FF 253.13deg, #2400FF 517.5deg);
         filter: blur(173.754px);
     }
 
     .title {
+        
         width: 589px;
         height: 86px;
         margin-bottom: 2.1875rem;
@@ -140,6 +144,9 @@
         display: flex;
         mix-blend-mode: hard-light;
         filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+        width: 300px;
+        height: 300px;
+
     }
     
     .logon-card {
@@ -147,6 +154,7 @@
         text-align: center;
         padding: 10rem;
         height: 100vh;
+        
     }
 
     .title-logon h2 {
@@ -160,6 +168,7 @@
         width: 380px;
         margin-left: auto;
         margin-right: auto;
+        
     }
 
     .login {
@@ -169,6 +178,7 @@
         border-radius: 20px;
         padding: 1rem 4rem;
         font-weight: 900;
+        
     }
     
     .router-login {
@@ -183,6 +193,7 @@
         border-radius: 20px;
         padding: 1rem 4rem;
         font-weight: 900;
+        
     }
 
     .router-register {

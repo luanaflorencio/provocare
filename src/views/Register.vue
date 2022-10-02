@@ -11,7 +11,6 @@
                 <div class="entry-button">
                     <a href="#" >Entrar</a>
                 </div>
-                <a class="not-password" href="#">Esqueci minha senha</a>
             </div>
         </div>
         <div class="form-card">
@@ -27,6 +26,8 @@
                 <input type="text" placeholder="E-mail" class="ipt"><br>
               
                 <input type="text" placeholder="Senha" class="ipt"><br>
+
+                <input type="submit" class="btn" value="Cadastrar">
             </form>
         </div>
     </section>
@@ -121,7 +122,7 @@
 
     .ipt {
         margin-top: 5%;
-        width: 40%;
+        width: 50%;
         height: 47px;
         border-radius: 10px;
         background-color: #E3E3E3;
@@ -135,5 +136,17 @@
     .title-form {
         color: #3C60A6;
         text-shadow: 3px 8px 5px #E3E3E3;
+    }
+
+    .btn{
+        margin-top: 5%;
+        width: 15%;
+        height: 60px;
+        background-color: #3C60A6;
+        color: #44D794;
+        border-radius: 10px;
+        font-weight: bold;
+        font-size: 20px;
+        cursor: pointer;
     }
     </style>

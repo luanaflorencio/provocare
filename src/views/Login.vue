@@ -48,13 +48,16 @@ export default {
 
 .card-blue {
   background-color: #3c60a6;
-  max-width: 37.5rem;
+  max-width: 25rem;
   min-width: 18.75rem;
   height: 100vh;
+  
 }
 
 .itens {
   display: block;
+  align-items: center;
+  flex-direction: column;   
 }
 
 .itens h1 {
@@ -65,19 +68,15 @@ export default {
 }
 
 .form {
-  display: flex;
+  display: block;
   margin-left: 2.25rem;
-  margin-right: 5.8125rem;
-  flex-direction: column;
-  align-items: flex-start;
-  padding-right: 250px;
 }
 
 .input {
   display: flex;
   background: #e3e3e3;
-  height: 3.75rem;
-  border-radius: 1.25rem;
+  height: 2.5rem;
+  border-radius: .6rem;
   margin-bottom: 0.9375rem;
   max-width: 15.625rem;
   min-width: 15rem;
@@ -94,14 +93,21 @@ export default {
   border: hidden;
   padding-left: 2.5rem;
   margin-left: -1.875rem;
-  border-radius: 1.25rem;
+  border-radius: 0.6rem;
   width: 15rem;
 }
 
+.input input:focus {
+  outline: none;
+}
+
 .not-password {
-  margin-top: 2rem;
+  display: flex;
+  align-items: flex-start;
+  margin-top: 1.5rem;
   margin-bottom: 3.25rem;
   color: #fff;
+  font-size: 10pt;
 }
 
 .button-entry {

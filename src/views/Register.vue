@@ -150,8 +150,14 @@
     .ipt input {
         background: none;
         border: none;
-        padding-left: .625rem;
+        padding-left: 2.5rem;
         width: 100%;
+        margin-left: -2.1875rem;
+        border-radius: .625rem;
+    }
+
+    .ipt input:focus {
+        outline: none;
     }
 
     .title {

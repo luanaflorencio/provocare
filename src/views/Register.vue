@@ -11,7 +11,6 @@
                 <div class="entry-button">
                     <a href="#" >Entrar</a>
                 </div>
-                <a class="not-password" href="#">Esqueci minha senha</a>
             </div>
         </div>
         <div class="form-card">
@@ -21,12 +20,24 @@
             </div>
 
             <form action="#">
-                
-                <input type="text" placeholder="Nome" class="ipt"><br>
+                    
+                <span class="ipt">
+                    <img src="../assets/person-outline.svg" alt="" >
+                    <input type="text" placeholder="Nome">
+                </span>
+                <br>
                
-                <input type="text" placeholder="E-mail" class="ipt"><br>
+                <span class="ipt">
+                    <img src="../assets/mail-outline.svg" alt="" >
+                    <input type="text" placeholder="E-mail">
+                </span><br>
               
-                <input type="text" placeholder="Senha" class="ipt"><br>
+                <span class="ipt">
+                    <img src="../assets/lock-closed-outline.svg" alt="" >
+                    <input type="password" placeholder="Senha">
+                </span><br>
+
+                <input type="submit" class="btn" value="Cadastrar">
             </form>
         </div>
     </section>
@@ -81,7 +92,7 @@
         font-size: 1.5rem;
         font-weight: 900;
         max-width: 10rem;
-        color: #44D794;
+        color: #FFF;
         text-shadow: 0rem .25rem .25rem rgba(0, 0, 0, 0.25);;
         margin-bottom: 2.125rem;
         display: flex;
@@ -99,8 +110,9 @@
     }
     
     .entry-button a {
-        color: #44D794;
-        border: .1875rem solid #44D794;
+        color: #FFF;
+        border: .1875rem solid #343C54;
+        background: #6464AC;
         box-shadow: 0rem .25rem .25rem rgba(0, 0, 0, 0.25);
         border-radius: 1.25rem;
         padding: 1rem 4rem;
@@ -116,16 +128,36 @@
         justify-content: center;
         align-items: center;
         width: 100vw;
-        margin-top: 5%;
     }
 
     .ipt {
         margin-top: 5%;
-        width: 40%;
+        width: 50%;
         height: 47px;
-        border-radius: 10px;
+        border-radius: .625rem;
         background-color: #E3E3E3;
         border: #E3E3E3;
+        padding-left: .625rem ;
+        display: flex;
+        margin: 0 auto;
+        margin-top: 1rem;
+    }
+
+    .ipt img {
+        width: 1.5625rem;
+    }
+
+    .ipt input {
+        background: none;
+        border: none;
+        padding-left: 2.5rem;
+        width: 100%;
+        margin-left: -2.1875rem;
+        border-radius: .625rem;
+    }
+
+    .ipt input:focus {
+        outline: none;
     }
 
     .title {
@@ -135,5 +167,19 @@
     .title-form {
         color: #3C60A6;
         text-shadow: 3px 8px 5px #E3E3E3;
+        margin-top: 5%;
     }
-    </style>
+
+    .btn{
+        margin-top: 5%;
+        min-width: 25%;
+        height: 60px;
+        background-color: #6464AC;
+        color: #FFF;
+        border-radius: 20px;
+        font-weight: bold;
+        font-size: 20px;
+        cursor: pointer;
+    }
+</style>
+

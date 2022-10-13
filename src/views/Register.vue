@@ -34,7 +34,7 @@
               
                 <span class="ipt">
                     <img src="../assets/lock-closed-outline.svg" alt="" >
-                    <input type="text" placeholder="Senha">
+                    <input type="password" placeholder="Senha">
                 </span><br>
 
                 <input type="submit" class="btn" value="Cadastrar">

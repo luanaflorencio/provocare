@@ -33,7 +33,7 @@
                 </h2>
                 <div class="container-2">
                     <nav class="login">
-                        <router-link to="/register" class="router-login">Entrar</router-link>
+                        <router-link to="/login" class="router-login">Entrar</router-link>
                     </nav>
                     <nav class="register">
                         <router-link to="/register" class="router-register">Cadastre-se</router-link>

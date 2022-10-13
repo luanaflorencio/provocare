@@ -75,11 +75,11 @@ export default {
 .input {
   display: flex;
   background: #e3e3e3;
-  height: 2.5rem;
+  height: 3rem;
   border-radius: .6rem;
-  margin-bottom: 0.9375rem;
-  max-width: 15.625rem;
-  min-width: 15rem;
+  margin-bottom: 1rem;
+  max-width: 19rem;
+  min-width: 18rem;
 }
 
 .input img {

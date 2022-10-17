@@ -62,7 +62,7 @@ export default {
 
 .itens h1 {
   color: #3fee9e;
-  margin: 6.5625rem 23.375rem 4.25rem 2.25rem;
+  margin: 6.5625rem 23.375rem 2.5rem 2.25rem;
   font-weight: 700;
   font-size: 32pt;
 }
@@ -77,7 +77,7 @@ export default {
   background: #e3e3e3;
   height: 3rem;
   border-radius: .6rem;
-  margin-bottom: 1rem;
+  margin-bottom: 1.5rem;
   max-width: 19rem;
   min-width: 18rem;
 }
@@ -134,6 +134,6 @@ export default {
 
 .rafiki img {
   min-width: 50vw;
-  margin-top: -10vw;
+  margin-top: -6vw;
 }
 </style>

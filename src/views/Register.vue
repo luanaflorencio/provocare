@@ -9,7 +9,7 @@
                     <p>Acesse sua conta agora!</p>
                 </div>
                 <div class="entry-button">
-                    <a href="#" >Entrar</a>
+                    <router-link to="/login" class="router-login">Entrar</router-link>
                 </div>
             </div>
         </div>

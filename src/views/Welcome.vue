@@ -200,12 +200,4 @@
         justify-content: center;
         margin-left: 70px;
     }
-
-    .title-logon h2[data-v-e4731dd0] {
-        padding: 0rem;
-    }
-
-    .logon-card[data-v-e4731dd0]{
-        padding: 9rem;
-    }
 </style>

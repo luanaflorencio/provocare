@@ -75,17 +75,14 @@
         display: flex;
         background: linear-gradient(180deg, rgba(68, 215, 148, 0.99) 0%, rgba(68, 215, 148, 0.804375)
             38.02%, rgba(0, 59, 210, 0.5049) 100%);
-            border-radius: 16px;
     }
     
     .card-blue {
         background: #3C60A6;
         max-width: 17.5rem;
-        padding: 10rem;
-        height: 100vh;
+        padding: 8rem;
         border: 1px solid #000000;
         box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
-        border-radius: 16px;
     }
 
     .conic-gradient {
@@ -198,5 +195,17 @@
 
     .router-register {
         color: #fff;
+    }
+    .card-blue h1[data-v-e4731dd0] {
+        justify-content: center;
+        margin-left: 70px;
+    }
+
+    .title-logon h2[data-v-e4731dd0] {
+        padding: 0rem;
+    }
+
+    .logon-card[data-v-e4731dd0]{
+        padding: 9rem;
     }
 </style>

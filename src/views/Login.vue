@@ -48,10 +48,8 @@ export default {
 
 .card-blue {
   background-color: #3c60a6;
-  max-width: 25rem;
-  min-width: 18.75rem;
-  height: 100vh;
-  
+  width: 30rem;
+  height: 750px;
 }
 
 .itens {
@@ -62,7 +60,7 @@ export default {
 
 .itens h1 {
   color: #3fee9e;
-  margin: 6.5625rem 23.375rem 4.25rem 2.25rem;
+  margin: 6.5625rem 23.375rem 2.5rem 2.25rem;
   font-weight: 700;
   font-size: 32pt;
 }
@@ -75,11 +73,10 @@ export default {
 .input {
   display: flex;
   background: #e3e3e3;
-  height: 2.5rem;
+  height: 3rem;
   border-radius: .6rem;
-  margin-bottom: 0.9375rem;
-  max-width: 15.625rem;
-  min-width: 15rem;
+  margin-bottom: 1.5rem;
+  max-width: 23rem;
 }
 
 .input img {
@@ -112,11 +109,12 @@ export default {
 
 .button-entry {
   display: flex;
+  justify-content: center;
+  margin-left: 22%;
   background: #6464ac;
   border: 0.1875rem solid #343c54;
   width: 11.25rem;
   height: 3.75rem;
-  justify-content: center;
   align-items: center;
   color: #fff;
   font-weight: 900;
@@ -134,6 +132,6 @@ export default {
 
 .rafiki img {
   min-width: 50vw;
-  margin-top: -10vw;
+  margin-top: -4px;
 }
 </style>

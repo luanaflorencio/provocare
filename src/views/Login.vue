@@ -15,7 +15,7 @@
             <input type="password" placeholder="Senha" />
           </span>
           <span class="not-password">Esqueceu a senha?</span>
-          <a class="button-entry" href="#">Entrar</a>
+          <router-link class="button-entry" to="/dashboard">Entrar</router-link>
         </div>
       </div>
     </section>

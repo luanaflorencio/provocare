@@ -37,6 +37,8 @@
                     <input type="password" placeholder="Senha">
                 </span><br>
 
+
+           <router-link class="btn" to="/dashboard">Cadastrar</router-link>
                 <input type="submit" class="btn" value="Cadastrar">
             </form>
         </div>

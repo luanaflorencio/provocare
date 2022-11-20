@@ -1,11 +1,11 @@
 <template>
     <main class="main">
-          <!-- <div class="container">
+          <div class="container">
             <button class="btn-card">Home</button>
             <button class="btn-card">Desafios</button>
             <button class="btn-card">Respostas</button>
             <button class="btn-card">Seus Desafios</button>
-        </div> -->
+        </div>
         <div class="wrapper">
             <div class="input-box">
                 <div class="post-card">
@@ -48,7 +48,7 @@ export default {
     main {
         display: flex;
         align-items: center;
-        justify-content: center;
+        justify-content: flex-start;
     }
 
     .wrapper {
@@ -58,7 +58,8 @@ export default {
         width: 40%;
         border-radius: 15px;
         padding: 25px 25px 15px 25px;
-        margin-top: 2%;
+        margin-bottom: 28%;
+        margin-left: 11%;
     }
 
     .input-box {
@@ -95,15 +96,25 @@ export default {
         cursor: pointer;
     }
 
-    /* .container{
-        display: flex;
-        justify-content: space-around;
+    .container{
         width: 20%;
-        height: 40%;
-        background-color: #3c60a6;
+        height: 40em;
+        background-color: #3C60A6;
     }
 
     .btn-card{
-        background-color: #3c60a6;
-    } */
+        background-color: #6464AC;
+        width: 60%;
+        height: 5%;
+        display: flex;
+        justify-content: space-around;
+        border: none;
+        font-size: 1.2em;
+        margin-left: 20%;
+        margin-top: 20%;
+        cursor: pointer;
+        border-radius: 16%;
+        box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+
+    }
 </style>

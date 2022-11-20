@@ -1,6 +1,11 @@
 <template>
-<h1>Dashboard</h1>
     <main class="main">
+          <!-- <div class="container">
+            <button class="btn-card">Home</button>
+            <button class="btn-card">Desafios</button>
+            <button class="btn-card">Respostas</button>
+            <button class="btn-card">Seus Desafios</button>
+        </div> -->
         <div class="wrapper">
             <div class="input-box">
                 <div class="post-card">
@@ -50,10 +55,10 @@ export default {
         background: #212121;
         box-shadow: 6px 4px 5px rgba(0, 0, 0, 0.25);
         border-radius: 20px;
-        max-width: 700px;
-        width: 100%;
+        width: 40%;
         border-radius: 15px;
         padding: 25px 25px 15px 25px;
+        margin-top: 2%;
     }
 
     .input-box {
@@ -82,10 +87,23 @@ export default {
         line-height: 29px;
         border: none;
         outline: none;
+        margin-left: 15%;
     }
 
     .post-card .btn:hover {
         background: #185d88;
+        cursor: pointer;
     }
 
+    /* .container{
+        display: flex;
+        justify-content: space-around;
+        width: 20%;
+        height: 40%;
+        background-color: #3c60a6;
+    }
+
+    .btn-card{
+        background-color: #3c60a6;
+    } */
 </style>

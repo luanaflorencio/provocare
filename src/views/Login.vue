@@ -49,7 +49,13 @@ export default {
 .card-blue {
   background-color: #3c60a6;
   width: 30rem;
-  height: 750px;
+  height: 120vh;
+  max-width: 30rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+        
 }
 
 .itens {
@@ -134,4 +140,6 @@ export default {
   min-width: 50vw;
   margin-top: -4px;
 }
+
+
 </style>

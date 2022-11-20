@@ -98,7 +98,7 @@ export default {
 
     .container{
         width: 20%;
-        height: 40em;
+        height: 100vh;
         background-color: #3C60A6;
     }
 
@@ -113,7 +113,7 @@ export default {
         margin-left: 20%;
         margin-top: 20%;
         cursor: pointer;
-        border-radius: 16%;
+        border-radius: 16px;
         box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
 
     }

@@ -2,6 +2,14 @@
   <main>
     <div>
       <div class="container">
+           <div class="title">
+                    <h3>
+                        <font color="#44D794">&lt;</font>
+                        PROVOCARE
+                        <font color="#44D794">&gt;</font> 
+                    </h3>
+                    
+                </div>
         <button class="btn-card">
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -218,14 +226,6 @@ export default {
   width: 98%;
 }
 
-.buttons {
-  display: flex;
-  justify-content: space-around;
-  border-top: 0.0625rem solid #808080;
-  border-bottom: 0.0625rem solid #808080;
-  margin-bottom: 1rem;
-}
-
 .btnAction {
   width: 10.4375rem;
   height: 2rem;
@@ -251,18 +251,17 @@ main {
   align-items: center;
   justify-content: center;
   height: 100vh;
-  /* border: 2px solid red; */
 }
 
 .wrapper {
   background: #212121;
   box-shadow: 6px 4px 5px rgba(0, 0, 0, 0.25);
-  min-width: 50%;
   border-radius: 20px;
-  /* width: 40%; */
+  width: 70%;
   border-radius: 15px;
-  padding: 25px 25px 15px 25px;
-  margin-bottom: 2rem;
+  padding: 10px 15px 15px 15px;
+  margin-bottom: 4rem;
+  margin-top: 20%;
 }
 
 
@@ -297,10 +296,10 @@ main {
 }
 
 .post-card .btn {
-  width: 123px;
+  width: 200px;
   height: 49px;
   background: #1da1f2;
-  border-radius: 74px;
+  border-radius: 30px;
   font-weight: 500;
   font-size: 24px;
   line-height: 29px;
@@ -317,7 +316,7 @@ main {
 .container {
   left: 0;
   top: 0;
-  width: 20%;
+  width: 22%;
   height: 100%;
   background-color: #3c60a6;
   position: fixed;
@@ -338,5 +337,12 @@ main {
   border-radius: 16px;
   box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
   align-items: center;
+}
+.title{
+    margin-top: 30%;
+}
+
+svg{
+    margin-right: 5%;
 }
 </style>

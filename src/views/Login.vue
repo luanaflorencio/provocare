@@ -1,28 +1,30 @@
 <template>
-  <div class="login"></div>
-
-  <main class="main">
-    <section class="card-blue">
-      <div class="itens">
-        <h1>Login</h1>
-        <div class="form">
-          <span class="input">
-            <img src="../assets/mail-outline.svg" alt="" />
-            <input type="email" placeholder="E-mail" />
-          </span>
-          <span class="input">
-            <img src="../assets/lock-closed-outline.svg" alt="" />
-            <input type="password" placeholder="Senha" />
-          </span>
-          <span class="not-password">Esqueceu a senha?</span>
-          <router-link class="button-entry" to="/dashboard">Entrar</router-link>
+  <div class="login">
+    <main class="main">
+      <section class="card-blue">
+        <div class="itens">
+          <h1>Login</h1>
+          <div class="form">
+            <span class="input">
+              <img src="../assets/mail-outline.svg" alt="" />
+              <input type="email" placeholder="E-mail" />
+            </span>
+            <span class="input">
+              <img src="../assets/lock-closed-outline.svg" alt="" />
+              <input type="password" placeholder="Senha" />
+            </span>
+            <span class="not-password">Esqueceu a senha?</span>
+            <router-link class="button-entry" to="/dashboard"
+              >Entrar</router-link
+            >
+          </div>
         </div>
-      </div>
-    </section>
-    <section class="rafiki">
-      <img src="../assets/Privacy-policy-rafiki-2.svg" alt="" />
-    </section>
-  </main>
+      </section>
+      <section class="rafiki">
+        <img src="../assets/Privacy-policy-rafiki-2.svg" alt="" />
+      </section>
+    </main>
+  </div>
 </template>
 
 <script>
@@ -49,13 +51,13 @@ export default {
 .card-blue {
   background-color: #3c60a6;
   width: 30rem;
-  height: 750px;
+  height: 100vh;
 }
 
 .itens {
   display: block;
   align-items: center;
-  flex-direction: column;   
+  flex-direction: column;
 }
 
 .itens h1 {
@@ -74,7 +76,7 @@ export default {
   display: flex;
   background: #e3e3e3;
   height: 3rem;
-  border-radius: .6rem;
+  border-radius: 0.6rem;
   margin-bottom: 1.5rem;
   max-width: 23rem;
 }

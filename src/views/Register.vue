@@ -9,7 +9,7 @@
                     <p>Acesse sua conta agora!</p>
                 </div>
                 <div class="entry-button">
-                    <a href="#" >Entrar</a>
+                    <router-link to="/login" class="router-login">Entrar</router-link>
                 </div>
             </div>
         </div>
@@ -37,7 +37,9 @@
                     <input type="password" placeholder="Senha">
                 </span><br>
 
-                <input type="submit" class="btn" value="Cadastrar">
+
+           <router-link class="btn" to="/dashboard">Cadastrar</router-link>
+                
             </form>
         </div>
     </section>
@@ -172,14 +174,17 @@
 
     .btn{
         margin-top: 5%;
-        min-width: 25%;
-        height: 60px;
+        display: block;
+        width: 25%;
+        height: 45px;
         background-color: #6464AC;
         color: #FFF;
         border-radius: 20px;
         font-weight: bold;
         font-size: 20px;
         cursor: pointer;
+        margin-left: 38%;
+        padding-top: 15px;
     }
 </style>
 

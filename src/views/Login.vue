@@ -136,4 +136,6 @@ export default {
   min-width: 50vw;
   margin-top: -4px;
 }
+
+
 </style>

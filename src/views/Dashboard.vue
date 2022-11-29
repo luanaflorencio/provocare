@@ -217,7 +217,7 @@ export default {
   align-items: center;
   flex-direction: column;
   margin-left: 2rem;
-  margin-top: 5rem;
+  /* margin-top: 5rem; */
   width: 60%;
   height: 100vh;
 }
@@ -350,6 +350,10 @@ main {
   background: transparent;
   border: none;
   font-size: 16px;
+}
+
+.input {
+  width: 100%;
 }
 
 .post-card .btn {
